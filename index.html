@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="responsive.css">
+
+</head>
+
+<body>
+    <header> Flight Search Engine</header>
+    <!-- this is container 1 left -->
+    <div class="container1">
+
+        <button class="dropdown__button">
+            <a href="#">
+                <div class="my_1">
+                    <span>One-Way</span>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+            </a>
+        </button>
+
+        <button class="dropdown__button">
+            <a href="#">
+                <div class="my_1">
+                    <span>Return</span>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+            </a>
+        </button>
+
+        <div class="search__engine hide" id="ticket">
+            <div class="destination">
+                <label for="Orgin_city">Orgin City:</label>
+                <input type="text" name="Orgin_city" id="start" placeholder="Enter Orgin City">
+
+                <label for="Orgin_city">Destination City:</label>
+                <input type="text" name="Destination_city" id="start" placeholder="Enter Destination City">
+            </div>
+            <div class="date">
+                <label for="start"><b> Depature Date: </b></label>
+                <input type="date" id="start" name="trip-start" value="2022-12-02" min="2022-12-01" max="2022-12-31">
+
+                <label for="start"><b>Return Date: </b></label>
+                <input type="date" id="start" name="trip-start" value="222-12-05" min="2022-12-01" max="2023-01-31">
+
+                <input type="text" id="start" placeholder="How many people">
+
+            </div>
+        </div>
+        <div class="price">
+            <h3>Select Price:</h3>
+            <p>Range Rs.1.000.00 - Rs.10.000.00</p>
+            <input type="range" name="range" id="range" min="1000" max="10000">
+        </div>
+
+
+    </div>
+    </div>
+
+    <!-- this is container2 right -->
+    <div class="container2">
+        <div class="goto">
+            <h1>Pune > Delhi > Pune</h1>
+            <p class="right">Depart: 02-12-2022</p>
+            <p class="right">Return: 5-12-2022</p>
+        </div>
+
+        <!-- Flight-->
+        <div class="card">
+            <h1>Rs. 9.500.00</h1>
+            <div class="wrap">
+                <p>Al-202</p>
+                <p>PNQ > DEL</p>
+                <p>Depart:10.00 AM</p>
+                <p>Arrive: 12.00 PM</p>
+            </div>
+            <div class="wrap">
+                <p>Al-202</p>
+                <p>PNQ > DEL</p>
+                <p>Depart:10.00 AM</p>
+                <p>Arrive: 12.00 PM</p>
+            </div>
+            <div class="wrap">
+                <img src="/Assignment1/Images/1.jpg" alt="Flight">
+                <button>Book this Flight</button>
+            </div>
+        </div>
+
+
+        <!-- Flight-->
+        <div class="card">
+            <h1>Rs. 9.500.00</h1>
+            <div class="wrap">
+                <p>Al-202</p>
+                <p>PNQ > DEL</p>
+                <p>Depart:10.00 AM</p>
+                <p>Arrive: 12.00 PM</p>
+            </div>
+            <div class="wrap">
+                <p>Al-202</p>
+                <p>PNQ > DEL</p>
+                <p>Depart:10.00 AM</p>
+                <p>Arrive: 12.00 PM</p>
+            </div>
+            <div class="wrap">
+                <img src="/Assignment1/Images/1.jpg" alt="Flight">
+                <button>Book this Flight</button>
+            </div>
+        </div>
+
+        <!-- Flight -->
+        <div class="card">
+            <h1>Rs. 9.500.00</h1>
+            <div class="wrap">
+                <p>Al-202</p>
+                <p>PNQ > DEL</p>
+                <p>Depart:10.00 AM</p>
+                <p>Arrive: 12.00 PM</p>
+            </div>
+            <div class="wrap">
+                <p>Al-202</p>
+                <p>PNQ > DEL</p>
+                <p>Depart:10.00 AM</p>
+                <p>Arrive: 12.00 PM</p>
+            </div>
+            <div class="wrap">
+                <img src="/Assignment1/Images/1.jpg" alt="Flight">
+                <button>Book this Flight</button>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

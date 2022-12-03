@@ -1,0 +1,41 @@
+/* Responsive for Iphone 12 and 13 and Android mobiles*/
+
+@media screen and (max-width:428px){
+.container1{
+    width: auto;
+    height: auto;
+    float: none;
+
+}
+.container2{
+    width: auto;
+    height: auto;
+}
+
+
+.wrap{
+    display: inline-block;
+    padding: 0;
+}
+}
+
+/* Responsive for Ipad */
+@media  screen and (max-width:812px) {
+    .container1{
+        width: auto;
+        height: auto;
+    
+    }
+    .container2{
+        width: auto;
+        height: auto;
+    }
+    
+    
+    .wrap{
+        display: inline-block;
+        padding: 0;
+    }
+    
+}
+
